@@ -3,12 +3,12 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle:
-description:
+title: '前端学习之路'
+subtitle: '年轻就是资本'
+description: '记录一些前端学习笔记'
 keywords:
-author: John Doe
-language:
+author: Jack Yang
+language: zh-Hans
 timezone:
 
 # URL
@@ -78,4 +78,6 @@ theme: landscape
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: git
+  repository: git@github.com:yanglinga/yangling.github.io.git
+  branch: master
